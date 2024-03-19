@@ -1,0 +1,5 @@
+org\acme\vehiclerouting\domain\jackson\VRPScoreAnalysisJacksonDeserializer.class
+org\acme\vehiclerouting\domain\jackson\VRPScoreAnalysisJacksonModule.class
+org\acme\vehiclerouting\rest\VehicleRoutePlanResourceTest.class
+org\acme\vehiclerouting\domain\geo\HaversineDrivingTimeCalculatorTest.class
+org\acme\vehiclerouting\solver\VehicleRoutingConstraintProviderTest.class

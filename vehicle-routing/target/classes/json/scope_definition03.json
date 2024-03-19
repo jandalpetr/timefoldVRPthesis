@@ -1,0 +1,10 @@
+{"name":"demo","southWestCorner":[49.9898925,14.2466044],
+  "northEastCorner":[50.1577947,14.6290661],
+  "startDateTime":"2024-03-17T07:30:00",
+  "endDateTime":"2024-03-18T00:00:00",
+  "vehicles":[{"id":"1","capacity":10,"homeLocation":[49.9898925,14.2466044],"departureTime":"2024-03-17T07:30:00","visits":[],"totalDemand":0,"arrivalTime":"2024-03-17T07:30:00","totalDrivingTimeSeconds":0}],
+  "visits":[
+    {"id":"1","name":"Petr Jandal","location":[50.0859958197247,14.3703357948204],
+      "demand":1,"minStartTime":"2024-03-17T08:00:00","maxEndTime":"2024-03-17T12:00:00","serviceDuration":2400.000000000,"vehicle":null,"previousVisit":null,"nextVisit":null,"arrivalTime":null,"departureTime":null,"startServiceTime":null,"drivingTimeSecondsFromPreviousStandstill":null},
+    {"id":"2","name":"Pavel Jandal","location":[50.0856953802835,14.3665809276002],"demand":1,"minStartTime":"2024-03-17T13:00:00","maxEndTime":"2024-03-17T18:00:00","serviceDuration":2400.000000000,"vehicle":null,"previousVisit":null,"nextVisit":null,"arrivalTime":null,"departureTime":null,"startServiceTime":null,"drivingTimeSecondsFromPreviousStandstill":null},
+    {"id":"3","name":"Elsa Green","location":[50.036104902456536,14.60961992914107],"demand":1,"minStartTime":"2024-03-17T08:00:00","maxEndTime":"2024-03-17T12:00:00","serviceDuration":2400.000000000,"vehicle":null,"previousVisit":null,"nextVisit":null,"arrivalTime":null,"departureTime":null,"startServiceTime":null,"drivingTimeSecondsFromPreviousStandstill":null}],"totalDrivingTimeSeconds":0}

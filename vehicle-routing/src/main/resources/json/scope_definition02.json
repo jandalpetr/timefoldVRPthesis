@@ -1,0 +1,57 @@
+{
+  "name": "Vehicle Routing Problem Petr",
+  "southWestCorner": [49.9898925,14.2466044],
+  "northEastCorner": [50.1577947,14.6290661],
+  "startDateTime": "2023-03-14T08:00:00",
+  "endDateTime": "2023-03-14T18:00:00",
+  "vehicles": [
+    {
+      "id": 1,
+      "capacity": 10,
+      "homeLocation": {
+        "latitude": 49.9898925,
+        "longitude": 14.2466044
+      }
+    },
+    {
+      "id": 2,
+      "capacity": 15,
+      "homeLocation": {
+        "latitude": 50.1577947,
+        "longitude": 14.6290661
+      }
+    }
+  ],
+  "visits": [
+    {
+      "id": 1,
+      "location": {
+        "latitude": 50.0859958197247, "longitude": 14.3703357948204
+      },
+      "demand": 5,
+      "minStartTime": "2023-03-14T09:00:00",
+      "maxEndTime": "2023-03-14T17:00:00",
+      "serviceDurationSeconds": 1800
+    },
+    {
+      "id": 2,
+      "location": {
+        "latitude": 50.0856953802835, "longitude": 14.3665809276002
+      },
+      "demand": 3,
+      "minStartTime": "2023-03-14T10:00:00",
+      "maxEndTime": "2023-03-14T16:00:00",
+      "serviceDurationSeconds": 900
+    },
+    {
+      "id": 3,
+      "location": {
+        "latitude": 50.1044422412197, "longitude": 14.4059704516438
+      },
+      "demand": 8,
+      "minStartTime": "2023-03-14T11:00:00",
+      "maxEndTime": "2023-03-14T15:00:00",
+      "serviceDurationSeconds": 1200
+    }
+  ]
+}
